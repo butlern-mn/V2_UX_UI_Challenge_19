@@ -1,0 +1,250 @@
+body {
+    background-color: none;
+    margin: 0px !important;
+}
+
+nav {
+    width: 100%;
+    height: 50px;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #013863;
+    margin: 0px !important;
+}
+
+.navbarmenu {
+    display: flex;
+}
+
+.navbarmenu a {
+    font-family: Acme;
+    font-size: 14px;
+    font-style: bold;
+    color: white;
+    padding: 16px;
+    margin: 10px;
+    cursor: pointer;}
+
+.navbarmenu a:hover {
+    font-size: 18px;
+}
+
+.active {
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+#containerGrid {
+    margin-left: 3%;
+    margin-right: 3%;
+    display: grid;
+    gap: 50px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.headshotarea {
+    justify-content: start;
+    align-content: center;
+    width: 100%;
+    text-align: center;
+}
+
+.imageheadshot {
+    width: 40%;
+    margin-top: 25px;
+    height: auto;
+}
+
+.images {
+    width: 100%;
+    height: auto;
+}
+
+.AboutMe {
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.AboutMe h1 {
+    font-family: Acme;
+    font-size: 48px;
+    font-style: normal;
+    color: black;
+}
+
+.AboutMe h2 {
+    font-family: Arimo;
+    font-size: 24px;
+    font-style: normal;
+    color: black;
+}
+
+.AboutMe p {
+    font-family: Arimo;
+    font-size: 20px;
+    font-style: normal;
+    color: black;
+}
+
+button.contactButton {
+    border: none;
+    color: white;
+    padding: 1%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: Acme;
+    margin-top: 30px;
+    margin-left: 16px;
+    margin-right: 16px;
+    height: 58px;
+    width: 252px;
+    cursor: pointer;
+    background-color: #007b84;
+    border-radius: 20px;
+    transition: 1s ease;
+}
+
+.contactButton:hover {
+    background-color: #013863;
+}
+
+.CaseStudy1, .CaseStudy2, .CaseStudy3 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: solid;
+    border-color: #013863;
+    color: black;
+    padding: 2%;
+    margin-bottom: 20px;
+}
+
+.CaseStudy1 {
+    margin-top: 20px;
+}
+
+.CaseStudyText {
+    width: 65%;
+} 
+
+.CaseStudyText h1 {
+    text-align: left;
+    font-family: Arimo;
+    font-size: 24px;
+    font-style: bold;
+    }
+
+.CaseStudyText p {
+    text-align: left;
+    font-family: Arimo;
+    font-size: 16px;
+    font-style: normal;
+    }
+
+.CaseStudyImg {
+    width: 30%;
+}
+
+#bottomLeft {
+    justify-content: center;
+    align-content: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.iconimages {
+    width: 100%;
+}
+
+#bottomRight {
+    justify-content: center;
+    align-content: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.skillsimage {
+    width: 100%;
+}
+
+
+footer {
+    width: 100%;
+    height: 50px;
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #013863;
+    margin: 0px !important;
+    }
+
+.Copyright {
+    font-family: Arimo;
+    font-size: 14px;
+    font-style: bold;
+    color: white;
+    width: 40%;
+    text-align: center;
+    }
+
+.FooterLinkedText {
+    display: flex;
+}
+
+.FooterLinkedText a {
+    font-family: Acme;
+    font-size: 14px;
+    font-style: bold;
+    color: white;
+    padding: 16px;
+    margin: 10px;
+}
+
+.FooterLinkedText a:hover {
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+    #containerGrid {
+        grid-template-columns: 100%;
+    }
+    footer img {
+        display: none;
+    }
+
+    header a {
+        display: none;
+    }
+
+    button.navbarbutton {
+        margin: 10px;
+    }
+
+    .FooterLinkedText a {
+        font-size: 12px;
+    }
+
+    .Copyright {
+        font-size: 12px;
+    }
+
+    header {class="navigation">
+            <nav>
+                <div class="mobilenavbarmenu">
+                    <img src="#">
+                </div>
+                <div class="mobileDDcontent">
+                    <a href="www.linkedin.com/in/nicole-butler-rn-phn">About</a>
+                    <a href="www.linkedin.com/in/nicole-butler-rn-phn">Work</a>
+                    <a href="www.linkedin.com/in/nicole-butler-rn-phn">Resume</a>
+                    <a href="www.linkedin.com/in/nicole-butler-rn-phn">Contact</a>
+                </div>
+            </nav>}
+}
+
