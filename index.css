@@ -68,6 +68,10 @@ nav {
     text-align: center;
 }
 
+.ContactMethods {
+    display: inline-block;
+}
+
 .AboutMe h1 {
     font-family: Acme;
     font-size: 48px;
@@ -105,11 +109,6 @@ button.contactButton {
     cursor: pointer;
     background-color: #007b84;
     border-radius: 20px;
-    transition: 1s ease;
-}
-
-.contactButton:hover {
-    background-color: #013863;
 }
 
 .CaseStudy1, .CaseStudy2, .CaseStudy3 {
@@ -125,7 +124,7 @@ button.contactButton {
 }
 
 .CaseStudy1 {
-    margin-top: 20px;
+    margin-top: 100px;
 }
 
 .CaseStudyText {
@@ -232,19 +231,6 @@ footer {
 
     .Copyright {
         font-size: 12px;
-    }
-
-    header {class="navigation">
-            <nav>
-                <div class="mobilenavbarmenu">
-                    <img src="#">
-                </div>
-                <div class="mobileDDcontent">
-                    <a href="www.linkedin.com/in/nicole-butler-rn-phn">About</a>
-                    <a href="www.linkedin.com/in/nicole-butler-rn-phn">Work</a>
-                    <a href="www.linkedin.com/in/nicole-butler-rn-phn">Resume</a>
-                    <a href="www.linkedin.com/in/nicole-butler-rn-phn">Contact</a>
-                </div>
-            </nav>}
+    } 
 }
 
