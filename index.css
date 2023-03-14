@@ -245,6 +245,8 @@ h3 {
     font-size: 48px;
     font-style: normal;
     color: black;
+    margin-block-start: 0em !important;
+    margin-block-end: 0em !important;
 }
 
 .headshotcontact h2 {
@@ -252,6 +254,8 @@ h3 {
     font-size: 24px;
     font-style: normal;
     color: black;
+    margin-block-start: 0em !important;
+    margin-block-end: 0em !important;
 }
 
 .contactpageMethods {
@@ -268,6 +272,8 @@ h3 {
     font-size: 24px;
     font-style: normal;
     color: black;
+    margin-block-start: 0em !important;
+    margin-block-end: 0em !important;
 }
 
 /* Case Study 1 */
