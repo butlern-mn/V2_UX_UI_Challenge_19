@@ -10,11 +10,5 @@ $(document).ready(function(){
   });
 });
 
-$(document).ready(function(){
-  $(".menuitem").hover(function(){
-    $(this).css("font-size", "20px");
-    }, function(){
-    $(this).css("font-size", "16px");
-  });
-});
+
 

@@ -24,10 +24,12 @@ nav {
     font-size: 16px;
     font-style: bold;
     color: white;
-    padding: 16px;
-    margin: 10px;
+    margin: 20px;
     cursor: pointer;}
 
+.navbarmenu a:hover {
+    font-size: 20px;
+}
 
 .mobilenavbarmenu {
     display: none;
@@ -302,10 +304,7 @@ hr.headingline {
 }
 
 .sectionOne {
-    display: flex; 
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    display: block;
 }
 
 .sectionTwo {
@@ -348,6 +347,22 @@ ul.listfont {
     width: 50%;
     height: auto;
 }
+
+.keyfindings { 
+    width: 50%;
+    height: auto;
+}
+
+img .persona {
+    border: 4px; 
+    border-color: #007b84;
+}
+
+.storyboard {
+    width: 50%;
+    height: auto;
+}
+
 
 @media only screen and (max-width: 600px) {
     #containerGrid {
