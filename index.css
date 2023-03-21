@@ -22,14 +22,13 @@ nav {
 .navbarmenu a {
     font-family: Acme;
     font-size: 16px;
-    font-style: bold;
+    font-weight: 400;
     color: white;
     margin: 20px;
     cursor: pointer;}
 
 .navbarmenu a:hover {
-    font-size: 18px;
-    margin: 10px;
+    font-weight: 600;
 }
 
 .mobilenavbarmenu {
@@ -71,13 +70,13 @@ footer {
 .FooterLinkedText a {
     font-family: Acme;
     font-size: 14px;
-    font-style: bold;
+    font-style: normal;
     color: white;
     margin: 20px;
 }
 
 .FooterLinkedText a:hover {
-    font-size: 16px;
+    font-weight: bold;
 }
 
 /* Homepage */
@@ -418,6 +417,91 @@ img .persona {
 .storyboard {
     width: 50%;
     height: auto;
+}
+
+/* About Page */
+.aboutheader {
+    text-align: center;
+}
+
+.aboutheader h1:before {
+    content: "";
+    display: block;
+    width: 220px;
+    height: 4px;
+    background-color: #007b84;
+    left: 0;
+    top: 50%;
+    position: absolute;
+}
+.aboutheader h1:after {
+    content: "";
+    display: block;
+    width: 220px;
+    height: 4px;
+    background-color: #007b84;
+    right: 0;
+    top: 50%;
+    position: absolute;
+}
+.aboutheader h1 {
+    font-family: Acme;
+    margin: 50px auto;
+    font-size: 36px;
+    font-style: medium;
+    text-align: center;
+    color: black;
+    max-width: 800px;
+    position: relative;
+}
+
+.skillsBoxes {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid #007b84;
+    width: 260px;
+    height: auto;
+}
+
+.skillsHeader {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    align-items: center;
+}
+
+.skillsHeader h1 {
+    font-family: Acme;
+    font-size: 30px;
+    font-style: medium;
+    text-decoration: underline;
+    text-align: center;
+    color: black;
+    max-width: 800px;
+    position: relative;
+}
+
+.skillsLists {
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    margin-left: -15px;
+    margin-top: -30px;
+}
+
+ .skillsLists li {
+    font-family: arimo;
+    font-size: 20px;
+    font-style: normal;
+ }
+
+.sectionFour {
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    margin: 40px;
 }
 
 
