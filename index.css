@@ -381,6 +381,7 @@ h3 {
     font-weight: 800;
     color: black;
     text-align: left;
+    margin-bottom: 0px !important;
 }
 
 .casestudyDesc p {
@@ -389,6 +390,7 @@ h3 {
     font-style: normal;
     color: black;
     text-align: left;
+    margin-top: 0px !important;
 }
 
 ul.listfont {
@@ -405,7 +407,7 @@ ul.listfont {
 }
 
 .keyfindings { 
-    width: 50%;
+    width: 60%;
     height: auto;
 }
 
@@ -415,8 +417,51 @@ img .persona {
 }
 
 .storyboard {
-    width: 50%;
+    width: 60%;
     height: auto;
+}
+
+.feature {
+    width: 70%;
+    height: auto;
+}
+
+.sitemap {
+    width: 70%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.wireframe {
+    width: 80%;
+    height: auto;
+}
+
+.styletile {
+    width: 40%;
+    height: auto;
+}
+
+.lofiVideo {
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 3%;
+}
+
+.hifiVideo {
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 3%;
 }
 
 /* About Page */
